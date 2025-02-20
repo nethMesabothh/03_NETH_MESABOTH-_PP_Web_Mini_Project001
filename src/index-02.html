@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./output.css" rel="stylesheet" />
+	</head>
+	<body class="font-web">
+		<main class="flex relative">
+			<!-- Sidebar -->
+			<section
+				class="w-[30%] min-h-screen bg-[#212121] max-md:hidden flex flex-col justify-start items-center gap-1"
+			>
+				<!-- Logo -->
+				<div class="py-1 w-full">
+					<img
+						src="../images/Logo.png"
+						alt="logo"
+						class="w-32 mx-auto ml-8 my-3"
+					/>
+				</div>
+				<div class="w-full flex flex-col gap-1 mt-2">
+					<!-- Menu-Sidebar -->
+					<!-- Home -->
+					<div class="w-full">
+						<a
+							href="./index-01.html"
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									opacity="1"
+									d="M20.04 6.82L14.28 2.79C12.71 1.69 10.3 1.75 8.78999 2.92L3.77999 6.83C2.77999 7.61 1.98999 9.21 1.98999 10.47V17.37C1.98999 19.92 4.05999 22 6.60999 22H17.39C19.94 22 22.01 19.93 22.01 17.38V10.6C22.01 9.25 21.14 7.59 20.04 6.82Z"
+									fill="#7B7B7B"
+								/>
+								<path
+									d="M12 18.75C11.59 18.75 11.25 18.41 11.25 18V15C11.25 14.59 11.59 14.25 12 14.25C12.41 14.25 12.75 14.59 12.75 15V18C12.75 18.41 12.41 18.75 12 18.75Z"
+									fill="#ffffff"
+								/>
+							</svg>
+							<p class="text-sidebar text-[16px] mt-1">Home</p>
+						</a>
+					</div>
+					<!-- Discover -->
+					<div class="w-full bg-gradient-to-l from-white/6 to-white/0">
+						<a
+							href="./index-02.html"
+							class="ml-[40px] flex gap-5 justify-end items-center"
+						>
+							<div class="flex items-center justify-between w-full">
+								<div class="flex gap-5 items-center justify-center">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											opacity="1"
+											d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+											fill="#1DB954"
+										/>
+										<path
+											d="M14.3252 14.3268C16.2075 12.4445 16.6918 9.877 15.407 8.59219C14.1222 7.30738 11.5547 7.79174 9.67244 9.67405C7.79013 11.5564 7.30576 14.1238 8.59058 15.4086C9.87539 16.6934 12.4428 16.2091 14.3252 14.3268Z"
+											fill="white"
+										/>
+									</svg>
+
+									<p class="text-sidebar text-[16px] mt-1">Discover</p>
+								</div>
+								<img src="../images/Rectangle.png" alt="rectangle" class="" />
+							</div>
+						</a>
+					</div>
+
+					<!-- Albums -->
+					<div class="w-full">
+						<a
+							href="./index-03.html"
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img src="../images/radio.png" alt="radio" class="w-6" />
+							<p class="text-sidebar text-[16px] mt-1">Albums</p>
+						</a>
+					</div>
+					<!-- Song -->
+					<div class="w-full">
+						<a
+							href="./index-04.html"
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img src="../images/albums.png" alt="albums" class="w-6" />
+							<p class="text-sidebar text-[16px] mt-1">Song for Listening</p>
+						</a>
+					</div>
+					<!-- Podcast -->
+					<div class="w-full">
+						<a
+							href="#ohOhh"
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img src="../images/podcast.png" alt="podcast" class="w-6" />
+							<p class="text-sidebar text-[16px] mt-1">Podcast</p>
+						</a>
+					</div>
+				</div>
+				<!-- Menu-Sidebar Library -->
+				<div class="w-full flex flex-col gap-1 my-3 mt-4">
+					<div class="flex items-center justify-between my-2">
+						<p class="text-sidebar ml-10 uppercase text-[13px]">Library</p>
+					</div>
+					<!-- Recently Added -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/recently-added.png"
+								alt="recently-added"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Recently Added</p>
+						</a>
+					</div>
+					<!-- Favorite Songs -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/favorite-songs.png"
+								alt="favorite-songs"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Favorite Songs</p>
+						</a>
+					</div>
+					<!-- Local Files -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img src="../images/folder.png" alt="folder" class="w-6" />
+							<p class="text-sidebar text-[16px] mt-1">Local Files</p>
+						</a>
+					</div>
+				</div>
+				<!-- Menu-Sidebar PlayList -->
+				<div class="w-full flex flex-col gap-1">
+					<div class="flex items-center justify-between my-3 mt-4">
+						<p class="text-sidebar ml-10 uppercase text-[13px]">PlayList</p>
+						<img src="../images/add.png" alt="add" class="w-4 h-4 mr-5" />
+					</div>
+					<!-- Lo-fi Music -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/music-playlist.png"
+								alt="music-playlist"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Lo-fi Music</p>
+						</a>
+					</div>
+					<!-- Best of Bon Jovi -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/music-playlist.png"
+								alt="music-playlist"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Best of Bon Jovi</p>
+						</a>
+					</div>
+					<!-- Best of John Mayer -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/music-playlist.png"
+								alt="music-playlist"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Best of John Mayer</p>
+						</a>
+					</div>
+				</div>
+			</section>
+			<!-- Main Content Section (Middle) With custom scrollbar-->
+			<section
+				class="bg-[#121212] w-full min-h-[130vh] flex flex-col pt-5 max-h-[400px] overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-xl [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-xl [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 pb-6"
+			>
+				<!-- Top-Bar -->
+				<div class="flex items-center justify-between px-5">
+					<div class="flex px-6 gap-5 max-[640px]:hidden">
+						<div class="p-3 rounded-xl bg-[#212121]">
+							<img src="../images/arrow-left.png" alt="" class="size-4" />
+						</div>
+						<div class="flex items-center justify-center gap-1">
+							<p class="text-[#7F7F7F]">Home</p>
+							<img
+								src="../images/arrow-left.png"
+								alt=""
+								class="size-4 rotate-180"
+							/>
+							<p class="text-white">Popular Artist</p>
+						</div>
+					</div>
+					<div class="flex w-[50%] items-center gap-10 max-[640px]:w-[100%]">
+						<div class="w-[80%]">
+							<label
+								for="default-search"
+								class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+								>Search</label
+							>
+							<div class="relative">
+								<div
+									class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+								>
+									<img src="../images/search.png" alt="" class="w-5" />
+								</div>
+								<input
+									type="search"
+									id="default-search"
+									class="block w-full p-4 ps-10 text-sm border border-[#212121] rounded-lg bg-[#212121] text-white dark:bg-[#212121] outline-0 placeholder:text-[#7F7F7F]"
+									placeholder="Search music, artist, albums..."
+									required
+								/>
+							</div>
+						</div>
+						<div>
+							<div class="p-3 rounded-xl bg-[#212121]">
+								<img src="../images/notification.png" alt="" class="size-4" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Good afternoon -->
+				<h1 class="text-3xl text-white mt-16 mx-10 ml-24">Good afternoon</h1>
+				<div class="mt-10">
+					<div
+						class="grid grid-cols-2 gap-9 justify-items-center w-[90%] mx-auto max-lg:grid-cols-1"
+					>
+						<!-- Grid-01 -->
+						<div
+							class="bg-[#FFFFFF1A] w-[357px] h-28 rounded-md flex items-center gap-4"
+						>
+							<img
+								src="../images/Frame-4.png"
+								alt=""
+								class="h-full object-contain rounded-md"
+							/>
+							<h1 class="text-lg text-white">Urdunama</h1>
+						</div>
+						<!-- Grid-02 -->
+						<div
+							class="bg-[#FFFFFF1A] w-[357px] h-28 rounded-md flex items-center gap-4"
+						>
+							<img
+								src="../images/Frame-1.png"
+								alt=""
+								class="h-full object-contain rounded-md"
+							/>
+							<h1 class="text-lg text-white">
+								Lenny's Podcast: Product <br />
+								| Growth | Career
+							</h1>
+						</div>
+						<!-- Grid-03 -->
+						<div
+							class="bg-[#FFFFFF1A] w-[357px] h-28 rounded-md flex items-center gap-4"
+						>
+							<img
+								src="../images/Frame-2.png"
+								alt=""
+								class="h-full object-contain rounded-md"
+							/>
+							<h1 class="text-lg text-white">Conversations with Tyler</h1>
+						</div>
+						<!-- Grid-04 -->
+						<div
+							class="bg-[#FFFFFF1A] w-[357px] h-28 rounded-md flex items-center gap-4"
+						>
+							<img
+								src="../images/Frame-3.png"
+								alt=""
+								class="h-full object-contain rounded-md"
+							/>
+							<h1 class="text-lg text-white">New York</h1>
+						</div>
+					</div>
+				</div>
+				<!-- Episode For You -->
+				<h1 class="text-3xl text-white mt-16 mx-10 ml-24">Episode For You</h1>
+				<div
+					class="my-10 text-white w-full px-[90px] pb-16 grid grid-cols-4 gap-[200px] max-lg:grid-cols-2 max-md:grid-cols-1 max-lg:gap-[30px] max-lg:justify-items-center"
+				>
+					<!-- Picture-01 -->
+					<div class="w-[207px] h-[285px] bg-[#181818] rounded-md">
+						<div class="flex flex-col justify-center items-start">
+							<img src="../images/picture-03.png" alt="" class="p-3" />
+							<div class="flex flex-col justify-center gap-2 px-3 mx-auto">
+								<h1 class="text-sm">Every Parent's Nightmare</h1>
+								<p class="text-[#B3B3B3] text-xs">Sep 2022 · 36 min</p>
+							</div>
+						</div>
+					</div>
+					<!-- Picture-02 -->
+					<div class="w-[207px] h-[285px] bg-[#181818] rounded-md">
+						<div class="flex flex-col justify-center items-start">
+							<img src="../images/picture-04.png" alt="" class="p-3" />
+							<div class="flex flex-col justify-center gap-2 px-3 mx-auto">
+								<h1 class="text-sm overflow-hidden text-ellipsis">
+									How the Pell Grant helped POCs go to college
+								</h1>
+								<p class="text-[#B3B3B3] text-xs">Sep 2022 · 29 min</p>
+							</div>
+						</div>
+					</div>
+					<!-- Picture-03 -->
+					<div class="w-[207px] h-[285px] bg-[#181818] rounded-md">
+						<div class="flex flex-col justify-center items-start">
+							<img src="../images/picture-02.png" alt="" class="p-3" />
+							<div class="flex flex-col justify-center gap-2 px-3">
+								<h1 class="text-sm">After 10 Years</h1>
+								<p class="text-[#B3B3B3] text-xs flex gap-2">
+									<img
+										src="../images/Auto Layout Horizontal.png"
+										alt=""
+										class="w-4 h-4"
+									/>
+									<span> Jul 2022 · 62 min </span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- Picture-04 -->
+					<div class="w-[207px] h-[285px] bg-[#181818] rounded-md">
+						<div class="flex flex-col justify-center items-start">
+							<img src="../images/picture-01.png" alt="" class="" />
+							<div class="flex flex-col justify-center gap-2 px-3 mx-auto">
+								<h1 class="text-sm overflow-hidden text-ellipsis">
+									Book Exploder: Min Jin Lee - Pachinko
+								</h1>
+								<p class="text-[#B3B3B3] text-xs flex gap-2">
+									<img
+										src="../images/Auto Layout Horizontal.png"
+										alt=""
+										class="w-4 h-4"
+									/>
+									<span> Aug 2022 · 20 min </span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Sidebar Right -->
+			<section
+				class="bg-[#212121] w-[30%] min-h-screen max-xl:hidden text-white"
+			>
+				<h1 class="text-white text-xl m-4">Mi Friends</h1>
+				<div class="flex flex-col px-4 gap-4">
+					<!-- Friend-01 -->
+					<div class="flex items-center justify-start">
+						<img src="../images/Ellipse 4.png" alt="" class="w-14 h-14" />
+						<div class="flex flex-col items-center gap-2 mx-auto">
+							<h1 class="text-sm">Kathryn Murphy</h1>
+							<div class="flex gap-2 items-center mx-2">
+								<img src="../images/green-btn.png" alt="" class="size-2" />
+								<p class="text-xs text-[#9CA3AF]">Listening: Gavin Mikhail</p>
+							</div>
+						</div>
+					</div>
+					<!-- Friend-02 -->
+					<div class="flex items-center justify-start">
+						<img src="../images/Ellipse 4-6.png" alt="" class="w-14 h-14" />
+						<div class="flex flex-col items-center gap-2 mx-auto">
+							<h1 class="text-sm">Bessie Cooper</h1>
+							<div class="flex gap-2 items-center mx-2">
+								<img src="../images/yellow.png" alt="" class="size-2" />
+								<p class="text-xs text-[#9CA3AF]">Absent</p>
+							</div>
+						</div>
+					</div>
+					<!-- Friend-03 -->
+					<div class="flex items-center justify-start">
+						<img src="../images/Ellipse 4-5.png" alt="" class="w-14 h-14" />
+						<div class="flex flex-col items-center gap-2 mx-auto">
+							<h1 class="text-sm">Jane Cooper</h1>
+							<div class="flex gap-2 items-center mx-2">
+								<img src="../images/green-btn.png" alt="" class="size-2" />
+								<p class="text-xs text-[#9CA3AF]">Listening: C4C</p>
+							</div>
+						</div>
+					</div>
+					<!-- Friend-04 -->
+					<div class="flex items-center justify-start">
+						<img src="../images/Ellipse 4-4.png" alt="" class="w-14 h-14" />
+						<div class="flex flex-col items-center gap-2 mx-auto">
+							<h1 class="text-sm">Esther Howard</h1>
+							<div class="flex gap-2 items-center mx-2">
+								<img src="../images/green-btn.png" alt="" class="size-2" />
+								<p class="text-xs text-[#9CA3AF]">Listening: Sleepy Fish</p>
+							</div>
+						</div>
+					</div>
+					<!-- Friend-05 -->
+					<div class="flex items-center justify-start">
+						<img src="../images/Ellipse 4-3.png" alt="" class="w-14 h-14" />
+						<div class="flex flex-col items-center gap-2 mx-auto">
+							<h1 class="text-sm">Kathryn Murphy</h1>
+							<div class="flex gap-2 items-center mx-2">
+								<img src="../images/yellow.png" alt="" class="size-2" />
+								<p class="text-xs text-[#9CA3AF]">Absent</p>
+							</div>
+						</div>
+					</div>
+					<!-- Friend-06 -->
+					<div class="flex items-center justify-start">
+						<img src="../images/Ellipse 4-1.png" alt="" class="w-14 h-14" />
+						<div class="flex flex-col items-center gap-2 mx-auto">
+							<h1 class="text-sm">Arlene McCoy</h1>
+							<div class="flex gap-2 items-center mx-2">
+								<img src="../images/green-btn.png" alt="" class="size-2" />
+								<p class="text-xs text-[#9CA3AF]">Listening: WYS</p>
+							</div>
+						</div>
+					</div>
+					<!-- Friend-07 -->
+					<div class="flex items-center justify-start">
+						<img src="../images/Ellipse 4-2.png" alt="" class="w-14 h-14" />
+						<div class="flex flex-col items-center gap-2 mx-auto">
+							<h1 class="text-sm">Courtney Henry</h1>
+							<div class="flex gap-2 items-center mx-2">
+								<img src="../images/yellow.png" alt="" class="size-2" />
+								<p class="text-xs text-[#9CA3AF]">Absent</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-full flex mt-10 justify-center items-center">
+					<button
+						class="py-4 px-8 w-[85%] rounded-xl bg-[#333333] text-[#F9FAFB]"
+					>
+						View All
+					</button>
+				</div>
+			</section>
+		</main>
+
+		<!-- Bottom Section -->
+		<section
+			class="bg-[#121212A3] fixed w-full h-[90px] bottom-0 backdrop-blur-[74px] flex justify-between px-10 max-[640px]:hidden"
+		>
+			<img
+				src="../images/Line.png"
+				alt="line"
+				class="absolute bottom-[89px] z-10 w-[50%] left-0"
+			/>
+			<img
+				src="../images/Line-1.png"
+				alt="line-1"
+				class="absolute bottom-[90px] z-9 min-w-screen"
+			/>
+			<img
+				src="../images/Artist.svg"
+				alt=""
+				class="w-[250px] max-sm:w-[150px] max-md:w-[200px]"
+			/>
+			<img
+				src="../images/Play.svg"
+				alt=""
+				class="w-[250px] max-sm:w-[150px] max-md:w-[200px]"
+			/>
+			<img
+				src="../images/Sound.svg"
+				alt=""
+				class="w-[250px] max-sm:w-[150px] max-md:w-[200px]"
+			/>
+		</section>
+	</body>
+</html>

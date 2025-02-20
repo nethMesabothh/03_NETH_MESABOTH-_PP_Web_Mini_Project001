@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/*
+sidebar-background: #212121;
+
+main-background: #121212;
+
+
+sidebar-font-color: #949494
+
+background: linear-gradient(270deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+
+background: #121212A3;
+
+backdrop-filter: blur(74px)
+
+max-[400px]:
+
+"sm": 640px
+"md": 768px 
+"lg": 1024px
+"xl": 1280px
+"2xl": 1536px 
+
+background: #121212A3;
+
+#181818
+background: #B3B3B3;
+
+#FFFFFF1A
+
+background: #9CA3AF;
+
+background: linear-gradient(90deg, #AF2896 0%, #509BF5 100%);
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50.11%, rgba(35, 78, 255, 0) 50.11%, #234EFF 100%);
+
+
+
+ */
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../font/HelveticaNeueMedium.otf");
+}
+
+@theme {
+	--color-sidebar: #949494;
+	--font-web: "Helvetica Neue";
+}

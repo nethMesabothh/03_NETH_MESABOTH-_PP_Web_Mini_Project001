@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./output.css" rel="stylesheet" />
+	</head>
+	<body class="font-web">
+		<main class="flex relative">
+			<!-- Sidebar -->
+			<section
+				class="w-[23%] min-h-screen bg-[#212121] max-md:hidden flex flex-col justify-start items-center gap-1"
+			>
+				<!-- Logo -->
+				<div class="py-1 w-full">
+					<img
+						src="../images/Logo.png"
+						alt="logo"
+						class="w-32 mx-auto ml-8 my-3"
+					/>
+				</div>
+				<div class="w-full flex flex-col gap-1 mt-2">
+					<!-- Menu-Sidebar -->
+					<!-- Home -->
+					<div class="w-full">
+						<a
+							href="./index-01.html"
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									opacity="1"
+									d="M20.04 6.82L14.28 2.79C12.71 1.69 10.3 1.75 8.78999 2.92L3.77999 6.83C2.77999 7.61 1.98999 9.21 1.98999 10.47V17.37C1.98999 19.92 4.05999 22 6.60999 22H17.39C19.94 22 22.01 19.93 22.01 17.38V10.6C22.01 9.25 21.14 7.59 20.04 6.82Z"
+									fill="#7B7B7B"
+								/>
+								<path
+									d="M12 18.75C11.59 18.75 11.25 18.41 11.25 18V15C11.25 14.59 11.59 14.25 12 14.25C12.41 14.25 12.75 14.59 12.75 15V18C12.75 18.41 12.41 18.75 12 18.75Z"
+									fill="#ffffff"
+								/>
+							</svg>
+							<p class="text-sidebar text-[16px] mt-1">Home</p>
+						</a>
+					</div>
+					<!-- Discover -->
+					<div class="w-full">
+						<a
+							href="./index-02.html"
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img src="../images/discover.png" alt="Discover" class="w-6" />
+							<p class="text-sidebar text-[16px] mt-1">Discover</p>
+						</a>
+					</div>
+					<!-- Albums -->
+					<div class="w-full bg-gradient-to-l from-white/6 to-white/0">
+						<a
+							href="./index-03.html"
+							class="ml-[40px] flex gap-5 justify-end items-center"
+						>
+							<div class="flex items-center justify-between w-full">
+								<div class="flex gap-5 items-center justify-center">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											opacity="1"
+											d="M22 10V17C22 20 20 22 17 22H7C4 22 2 20 2 17V10C2 7.26 3.67 5.34999 6.25 5.04999C6.49 5.00999 6.74 5 7 5H17C20 5 22 7 22 10Z"
+											fill="#1DB954"
+										/>
+										<path
+											d="M7.75 2V5H7C6.74 5 6.49 5.00999 6.25 5.04999V2C6.25 1.59 6.59 1.25 7 1.25C7.41 1.25 7.75 1.59 7.75 2Z"
+											fill="white"
+										/>
+										<path
+											d="M7.88 16C9.26072 16 10.38 14.8807 10.38 13.5C10.38 12.1193 9.26072 11 7.88 11C6.49929 11 5.38 12.1193 5.38 13.5C5.38 14.8807 6.49929 16 7.88 16Z"
+											fill="white"
+										/>
+										<path
+											d="M17.88 12.25H13.88C13.47 12.25 13.13 11.91 13.13 11.5C13.13 11.09 13.47 10.75 13.88 10.75H17.88C18.29 10.75 18.63 11.09 18.63 11.5C18.63 11.91 18.29 12.25 17.88 12.25Z"
+											fill="white"
+										/>
+										<path
+											d="M14.38 16.25H13.88C13.47 16.25 13.13 15.91 13.13 15.5C13.13 15.09 13.47 14.75 13.88 14.75H14.38C14.79 14.75 15.13 15.09 15.13 15.5C15.13 15.91 14.79 16.25 14.38 16.25Z"
+											fill="white"
+										/>
+										<path
+											d="M17.88 16.25H17.38C16.97 16.25 16.63 15.91 16.63 15.5C16.63 15.09 16.97 14.75 17.38 14.75H17.88C18.29 14.75 18.63 15.09 18.63 15.5C18.63 15.91 18.29 16.25 17.88 16.25Z"
+											fill="white"
+										/>
+									</svg>
+
+									<p class="text-sidebar text-[16px] mt-1">Albums</p>
+								</div>
+								<img src="../images/Rectangle.png" alt="rectangle" class="" />
+							</div>
+						</a>
+					</div>
+					<!-- Albums -->
+					<div class="w-full">
+						<a
+							href="./index-04.html"
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img src="../images/albums.png" alt="albums" class="w-6" />
+							<p class="text-sidebar text-[16px] mt-1">Song for Listening</p>
+						</a>
+					</div>
+					<!-- Podcast -->
+					<div class="w-full">
+						<a
+							href="#hehe"
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img src="../images/podcast.png" alt="podcast" class="w-6" />
+							<p class="text-sidebar text-[16px] mt-1">Podcast</p>
+						</a>
+					</div>
+				</div>
+				<!-- Menu-Sidebar Library -->
+				<div class="w-full flex flex-col gap-1 my-3 mt-4">
+					<div class="flex items-center justify-between my-2">
+						<p class="text-sidebar ml-10 uppercase text-[13px]">Library</p>
+					</div>
+					<!-- Recently Added -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/recently-added.png"
+								alt="recently-added"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Recently Added</p>
+						</a>
+					</div>
+					<!-- Favorite Songs -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/favorite-songs.png"
+								alt="favorite-songs"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Favorite Songs</p>
+						</a>
+					</div>
+					<!-- Local Files -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img src="../images/folder.png" alt="folder" class="w-6" />
+							<p class="text-sidebar text-[16px] mt-1">Local Files</p>
+						</a>
+					</div>
+				</div>
+				<!-- Menu-Sidebar PlayList -->
+				<div class="w-full flex flex-col gap-1">
+					<div class="flex items-center justify-between my-3 mt-4">
+						<p class="text-sidebar ml-10 uppercase text-[13px]">PlayList</p>
+						<img src="../images/add.png" alt="add" class="w-4 h-4 mr-5" />
+					</div>
+					<!-- Lo-fi Music -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/music-playlist.png"
+								alt="music-playlist"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Lo-fi Music</p>
+						</a>
+					</div>
+					<!-- Best of Bon Jovi -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/music-playlist.png"
+								alt="music-playlist"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Best of Bon Jovi</p>
+						</a>
+					</div>
+					<!-- Best of John Mayer -->
+					<div class="w-full">
+						<a
+							href=""
+							class="ml-[40px] flex gap-5 justify-start items-center py-2"
+						>
+							<img
+								src="../images/music-playlist.png"
+								alt="music-playlist"
+								class="w-6"
+							/>
+							<p class="text-sidebar text-[16px] mt-1">Best of John Mayer</p>
+						</a>
+					</div>
+				</div>
+			</section>
+			<!-- Main Content Section (Middle) With custom scrollbar-->
+			<section
+				class="bg-[#121212] w-full min-h-[130vh] flex flex-col pt-5 max-h-[400px] overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-xl [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-xl [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 pb-6"
+			>
+				<!-- Top-Bar -->
+				<div class="flex items-center justify-between px-5">
+					<div class="flex px-6 gap-5 max-[640px]:hidden">
+						<div class="p-3 rounded-xl bg-[#212121]">
+							<img src="../images/arrow-left.png" alt="" class="size-4" />
+						</div>
+						<div class="flex items-center justify-center gap-1">
+							<p class="text-[#7F7F7F]">Home</p>
+							<img
+								src="../images/arrow-left.png"
+								alt=""
+								class="size-4 rotate-180"
+							/>
+							<p class="text-white">Popular Artist</p>
+						</div>
+					</div>
+					<div class="flex w-[50%] items-center gap-10 max-[640px]:w-[100%]">
+						<div class="w-[80%]">
+							<label
+								for="default-search"
+								class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+								>Search</label
+							>
+							<div class="relative">
+								<div
+									class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+								>
+									<img src="../images/search.png" alt="" class="w-5" />
+								</div>
+								<input
+									type="search"
+									id="default-search"
+									class="block w-full p-4 ps-10 text-sm border border-[#212121] rounded-lg bg-[#212121] text-white dark:bg-[#212121] outline-0 placeholder:text-[#7F7F7F]"
+									placeholder="Search music, artist, albums..."
+									required
+								/>
+							</div>
+						</div>
+						<div>
+							<div class="p-3 rounded-xl bg-[#212121]">
+								<img src="../images/notification.png" alt="" class="size-4" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Cover -->
+				<h1 class="text-white m-8 ml-10">Browse all</h1>
+				<div
+					class="grid grid-cols-5 gap-4 mx-auto max-[1600px]:grid-cols-4 max-xl:grid-cols-3 pb-20 max-lg:grid-cols-2 max-md:grid-cols-1"
+				>
+					<div class="w-[207px] h-[207px] bg-[#27856A] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Podcasts</h1>
+						<img
+							src="../images/book-01.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#283EA3] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Audiobooks</h1>
+						<img
+							src="../images/book-02.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#1E3264] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Made For You</h1>
+						<img
+							src="../images/book-03.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#8D67AB] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Charts</h1>
+						<img
+							src="../images/book-04.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#E8115B] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">New Releases</h1>
+						<img
+							src="../images/book-05.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#8D67AB] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Discover</h1>
+						<img
+							src="../images/book-06.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#7358FF] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Live Events</h1>
+						<img
+							src="../images/book-07.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#B49BC8] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Hip-Hop</h1>
+						<img
+							src="../images/book-08.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#F037A5] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Pop</h1>
+						<img
+							src="../images/book-09.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#9CF0E1] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Country</h1>
+						<img
+							src="../images/book-10.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#E1118B] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Latin</h1>
+						<img
+							src="../images/book-11.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#D7F27D] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Rock</h1>
+						<img
+							src="../images/book-12.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#8D67AB] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Summer</h1>
+						<img
+							src="../images/book-13.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#777777] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">Workout</h1>
+						<img
+							src="../images/book-14.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+					<div class="w-[207px] h-[207px] bg-[#DC148C] rounded-lg relative">
+						<h1 class="text-white p-4 text-lg">R&B</h1>
+						<img
+							src="../images/book-15.png"
+							alt=""
+							class="object-contain h-30 absolute bottom-0 right-0"
+						/>
+					</div>
+				</div>
+			</section>
+			<!-- Sidebar Right -->
+		</main>
+
+		<!-- Bottom Section -->
+		<section
+			class="bg-gradient-to-r from-[#AF2896] to-[#509BF5] fixed w-full h-[90px] bottom-0 backdrop-blur-[74px] flex justify-between px-10 max-[640px]:hidden"
+		>
+			<div class="text-white flex justify-between items-center w-full">
+				<div class="flex flex-col gap-1">
+					<h1 class="max-md:text-xs">Preview of Beatby.com</h1>
+					<p class="max-md:text-xs">
+						Sign up to get unlimited songs and podcasts with occasional ads. No
+						credit card needed.
+					</p>
+				</div>
+				<div>
+					<button
+						class="py-4 px-8 bg-white text-black rounded-3xl max-md:py-3 max-md:px-5"
+					>
+						Sign up free
+					</button>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
